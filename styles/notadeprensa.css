@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Fruktur&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(216, 163, 119);
+}
+.fototitulo{
+    height: 250px;
+    width: 250px;
+    border: 4px solid rgb(216, 163, 119);
+    border-radius: 50%;
+}
+#tituloPrincipal{
+    background-image: url(../IMG/fagot.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Concert One', cursive;
+    font-size: 1.5em;
+    color: black;
+}
+.subtitulo{
+    font-size: 1em;
+    margin: 5px;
+}
+ul{
+    background-color: rgb(81, 39, 23);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family:'Concert One', cursive;
+    font-size: 1em;
+    color: white;
+    padding: 10px;
+}
+nav > li{
+    float: left;
+    display: block;
+}
+nav li a:hover{
+    background-color: rgb(216, 163, 119);
+}
+nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    font-size: 1em;
+}
+nav li:hover > ul{
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: rgb(248, 245, 236);
+}
+#NotasDePrensa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+main a{
+    font-family:'Concert One', cursive;
+    font-size: 2em;
+    text-align: center;
+}
+main p{
+    font-family:'Concert One', cursive;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+main img{
+    height: 200px;
+    width: 250px;
+    border: 5px solid rgb(81, 39, 23);
+    border-radius: 50%;
+}
+footer{
+    padding: 30px;
+    margin: 50px;
+    background-image: url(../IMG/fotopartiruras.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+#paginasMusica{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#youtube{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+#spotify{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+#iTunes{
+    text-align: center;
+    padding-top: 5px;
+}
+a img{
+    height: 80px;
+    width: 100px;
+    border: 4px solid rgb(216, 163, 119);
+    border-radius: 50%;
+}
+.logos{
+    height: 50px;
+    width: 80px;
+    margin: 2px;
+}
+h6{
+    font-family:'Concert One', cursive;
+    font-size: 0.8em;
+    color: rgba(246, 246, 245, 0.932);
+}

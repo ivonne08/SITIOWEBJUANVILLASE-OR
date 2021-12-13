@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Fruktur&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(216, 163, 119);
+}
+.fototitulo{
+    height: 250px;
+    width: 250px;
+    border: 4px solid rgb(216, 163, 119);
+    border-radius: 50%;
+}
+#tituloPrincipal{
+    background-image: url(../IMG/fagot.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Concert One', cursive;
+    font-size: 1.5em;
+    color: black;
+}
+.subtitulo{
+    font-size: 1em;
+    margin: 5px;
+}
+ul{
+    background-color: rgb(81, 39, 23);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family:'Concert One', cursive;
+    font-size: 1em;
+    color: white;
+    padding: 10px;
+}
+nav > li{
+    float: left;
+    display: block;
+}
+nav li a:hover{
+    background-color: rgb(216, 163, 119);
+}
+nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    font-size: 1em;
+}
+nav li:hover > ul{
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: rgb(248, 245, 236);
+}
+#contemain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+.titulo1{
+    background-image: url(../IMG/fotopartiruras.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    overflow: hidden;
+    font-family:'Concert One', cursive;
+    font-size: 1.8em;
+    color: rgb(248, 245, 236);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+.titulo2{
+    font-family:'Concert One', cursive;
+    font-size: 1em;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+#contetickets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Concert One', cursive;
+    text-align: center;
+}
+.uno{
+    color: black;
+    font-size: 1em;
+    padding: 10px;
+    margin: 10px;
+}
+.dos{
+    color: black;
+    font-size: 1em;
+    padding: 10px;
+    margin: 10px;
+}
+.tres{
+    color: black;
+    font-size: 1em;
+    padding: 10px;
+    margin: 10px;
+}
+#contetickets img{
+    height: 150px;
+    width: 140px;
+    padding: 10px;
+    margin: 10px;
+}
+#contetickets a{
+    font-family:'Concert One', cursive;
+    color: rgb(248, 245, 236);
+    background-color: rgb(81, 39, 23);
+    padding: 9px;
+    border-radius: 20px;
+}
+.numeros{
+    font-family:'Concert One', cursive;
+    font-size: 2em;
+    padding: 10px;
+}
+.sub1{
+    background-image: url(../IMG/fotopartiruras.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family:'Concert One', cursive;
+    font-size: 2em;
+    color:rgb(248, 245, 236);
+    padding: 30px;
+    margin: 20px;
+}
+.sub2{
+    font-family:'Concert One', cursive;
+    font-size: 1.6em;
+    color: black;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+.sub3{
+    font-family:'Concert One', cursive;
+    font-size: 1.4em;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.sub4{
+    font-family:'Concert One', cursive;
+    font-size: 1.4em;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+#textoHorarios{
+    background-color:rgb(81, 39, 23);
+    font-family:'Concert One', cursive;
+    font-size: 1.3em;
+    color:rgb(248, 245, 236) ;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+#bottonP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+#bottonP button{
+    background-color: rgb(33, 87, 187);
+    font-family:'Concert One', cursive;
+    font-size: 1.6em;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    border-style: none;
+    height: 80px;
+    width: 130px;
+}
+.conteimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+.conteimg img{
+    height: 600px;
+    width: 400px;
+}
+#contenedor2txt{
+    background-image: url(../IMG/fotopartiruras.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    margin: 10px;
+}
+#contenedortxt{
+    font-family:'Concert One', cursive;
+    color: rgb(255, 255, 255) ;
+    font-size: 1em;
+    padding: 15px;
+}
